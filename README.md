@@ -1,43 +1,53 @@
-# Getting Started with Create React App
+# Accessibility Testing Tool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Test any website for accessibility issues and get AI-powered suggestions to improve user experience for everyone.
 
-## Available Scripts
+![Accessibility Testing Tool Screenshot](https://github.com/user-attachments/assets/c9058d6d-d3c2-4f28-84a2-4ca29f29a272)
 
-In the project directory, you can run:
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔎 Scan websites for WCAG violations using Pa11y and Axe-core
+- 📋 View detailed issue reports categorized by severity (Critical, Serious, Moderate, Minor)
+- 🤖 Get AI-generated suggestions to fix accessibility issues using Groq API
+- 🎨 Clean, responsive UI built with React and TailwindCSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧰 Tech Stack
 
-### `npm test`
+- **Frontend:** React, TailwindCSS
+- **Backend:** Node.js, Express
+- **Accessibility Engines:** Axe-core, Pa11y
+- **AI Integration:** Groq API (LLM for issue resolution)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Installation
 
-### `npm run build`
+Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/SaptarshiMaity01/accessibility-checker.git
+cd accessibility-checker
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+cd accessibility-backend
+npm install
+node server.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+cd ../frontend
+npm install
+npm start
+```
+🧪 Usage
+Enter a URL into the input field
 
-### `npm run eject`
+Click "Test Accessibility"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+View categorized test results:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Accessibility Issues (Critical, Serious, Moderate, Minor)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Passed Tests
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Click "Get AI Solution" for actionable fix suggestions powered by AI
+
 
 ## Learn More
 
